@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clockwork", "Clockwork\Clockwork.csproj", "{C7B631FC-F88C-44E9-A12F-4423F4CEBDC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockworkBase32", "ClockworkBase32\ClockworkBase32.csproj", "{C7B631FC-F88C-44E9-A12F-4423F4CEBDC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clockwork.Tests", "Clockwork.Tests\Clockwork.Tests.csproj", "{AB25EE28-DD85-4426-BF78-CB22ADD12F3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockworkBase32.Tests", "ClockworkBase32.Tests\ClockworkBase32.Tests.csproj", "{AB25EE28-DD85-4426-BF78-CB22ADD12F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

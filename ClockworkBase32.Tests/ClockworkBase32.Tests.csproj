@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Clockwork\Clockwork.csproj" />
+    <ProjectReference Include="..\ClockworkBase32\ClockworkBase32.csproj" />
   </ItemGroup>
 
 </Project>

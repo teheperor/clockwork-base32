@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 
-    <PackageId>Clockwork.Base32</PackageId>
+    <PackageId>ClockworkBase32</PackageId>
     <Version>1.0.0</Version>
     <Authors>teheperor</Authors>
     <Company>teheperor</Company>
@@ -11,6 +11,7 @@
     <License>MIT</License>
     <PackageProjectUrl>https://github.com/teheperor/clockwork-base32</PackageProjectUrl>
 
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 </Project>

@@ -1,8 +1,8 @@
 using System.Text;
 using Xunit;
-using Clockwork;
+using ClockworkBase32;
 
-namespace ClockworkTests
+namespace ClockworkBase32.Tests
 {
     public class Base32Test
     {
