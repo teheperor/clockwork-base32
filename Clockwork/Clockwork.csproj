@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageId>Clockwork.Base32</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>teheperor</Authors>
+    <Company>teheperor</Company>
+    <Description>Clockwork Base32 encoding and decoding</Description>
+    <License>MIT</License>
+    <PackageProjectUrl>https://github.com/teheperor/clockwork-base32</PackageProjectUrl>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
