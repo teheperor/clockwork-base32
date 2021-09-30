@@ -12,7 +12,7 @@ namespace ClockworkBase32
         /// <summary>
         /// Encode bytes
         /// </summary>
-        /// <param name="data">bytes to be encoded</param>
+        /// <param name="data">Bytes to be encoded</param>
         /// <returns>Encoded string</returns>
         public static string Encode(in byte[] data)
         {
@@ -47,7 +47,7 @@ namespace ClockworkBase32
         /// <summary>
         /// Decode string
         /// </summary>
-        /// <param name="data">string to be decoded</param>
+        /// <param name="data">String to be decoded</param>
         /// <returns>Decoded bytes</returns>
         public static byte[] Decode(in string data)
         {
