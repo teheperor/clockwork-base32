@@ -1,5 +1,5 @@
 # Clockwork Base32 for C#
-A implementation of Clockwork Base32 for C#. See [Clockwork Base32 Specification](https://gist.github.com/szktty/228f85794e4187882a77734c89c384a8)
+C# implementation of Clockwork Base32. See [Clockwork Base32 Specification](https://gist.github.com/szktty/228f85794e4187882a77734c89c384a8)
 
 # Usage
 ```c#
