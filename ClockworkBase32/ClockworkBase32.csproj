@@ -4,12 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 
     <PackageId>ClockworkBase32</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>teheperor</Authors>
     <Company>teheperor</Company>
-    <Description>Clockwork Base32 encoding and decoding</Description>
+    <Description>Clockwork Base32 encoding and decoding for C#</Description>
     <License>MIT</License>
-    <PackageProjectUrl>https://github.com/teheperor/clockwork-base32</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/teheperor/dotnet-clockwork-base32</PackageProjectUrl>
 
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
