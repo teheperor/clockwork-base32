@@ -24,10 +24,11 @@ namespace ClockworkBase32
             var encodedChars =
                 data.
                 Concat(Enumerable.Repeat((byte)0, 5 - data.Length % 5)).
-                Select((x, n) => new { x, n }).
+                Select((x, n) => (x, n)).
                 GroupBy(x => x.n / 5).
                 Select(x => x.Select(y => y.x).ToArray()).
-                SelectMany(x =>
+                SelectMany(
+                    x =>
                     new[]
                     {
                         EncodeSymbols[(x[0] >> 3) & 0b11111],
@@ -58,17 +59,13 @@ namespace ClockworkBase32
 
             var decodedBytes =
                 data.
-                Select(c =>
-                {
-                    if (!DecodeSymbolTable.TryGetValue(c, out var x))
-                        throw new ArgumentException($"Invalid symbol value {c}", nameof(data));
-                    return x;
-                }).
+                Select(c => DecodeSymbolTable.TryGetValue(c, out var x) ? x : throw new ArgumentException($"Invalid symbol value {c}", nameof(data))).
                 Concat(Enumerable.Repeat(0, 8 - data.Length % 8)).
-                Select((x, n) => new { x, n }).
+                Select((x, n) => (x, n)).
                 GroupBy(x => x.n / 8).
                 Select(x => x.Select(y => y.x).ToArray()).
-                SelectMany(x =>
+                SelectMany(
+                    x =>
                     new[]
                     {
                         (byte)((x[0] << 3 | x[1] >> 2) & 0xFF),
